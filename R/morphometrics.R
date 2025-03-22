@@ -74,7 +74,7 @@ morphometric_analysis <- function(A, Lb, stream_orders, P, h, H, mean_elev) {
 
   # Relief parameters
   B <- H - h /1000
-  Rr <- (H * 0.1) / P
+  Rr <- (H * 100) / P
   Rn <- B * Dd
 
   # Hypsometric analysis
